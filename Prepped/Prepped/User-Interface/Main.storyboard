@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="rdc-ZK-1Ux">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="lDY-Kn-kGl">
+            <objects>
+                <tabBarController storyboardIdentifier="TabBarController" id="rdc-ZK-1Ux" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="LvM-IB-QJR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="P2c-dO-gOA" kind="relationship" relationship="viewControllers" id="ctT-OP-IYf"/>
+                        <segue destination="CUG-Jo-AtI" kind="relationship" relationship="viewControllers" id="oZW-NU-XPL"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eHa-B7-IFl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="322" y="-900"/>
+        </scene>
+        <!--Checklists-->
+        <scene sceneID="vbK-QO-Jfn">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="ChecklistsNavigationController" storyboardName="Checklists" id="P2c-dO-gOA" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="eGM-gH-7hc"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iFx-uv-cF0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="791" y="-788"/>
+        </scene>
+        <!--Diary-->
+        <scene sceneID="cxy-om-Av2">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Diary" id="CUG-Jo-AtI" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="Bhd-zP-U9a"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i4f-nc-t9J" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="775" y="-997"/>
+        </scene>
+    </scenes>
+</document>
